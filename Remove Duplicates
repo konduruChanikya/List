@@ -1,0 +1,10 @@
+n=int(input())
+l=[]
+for i in range(0,n+1):
+	temp=int(input())
+	l.append(temp)
+	a=n.count(i)
+	if a >1:
+			if new.count(i) == 0:
+				new.append(i)
+print(new)
